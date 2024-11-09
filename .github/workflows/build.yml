@@ -47,7 +47,7 @@ jobs:
             chmod +x build.sh
             echo Just Ran chmod +x build.sh
             cp distribution/current/.getopt.sh .
-            ./build.sh
+            ./build-all.sh
 
       - name: Read Upload
         run: |
